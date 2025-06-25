@@ -2,8 +2,7 @@ import streamlit as st
 from PIL import Image
 from ultralytics import YOLO
 import numpy as np
-import tempfile
-import os
+
 
 # Load the trained model
 model = YOLO("notebooks/yolov8m.pt")
